@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <a href="index.html">Voltar</a>
+
+    
+    <h2>Comentario:</h2>
+    
+    <form id="comment-form">
+        <div>
+            <label for="email">Seu e-mail:</label>
+            <input 
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite o seu e-mail"
+            required
+            
+            >
+            
+        </div>
+        <div>
+            <label for="body">Seu comentario:</label>
+            <textarea
+            name="body"
+            id="body"
+            placeholder="Digite o seu comentario"
+            required
+            
+            ></textarea>
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+    <div id="comentario-container"></div>
+    
+    <div id="comments-container"></div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
